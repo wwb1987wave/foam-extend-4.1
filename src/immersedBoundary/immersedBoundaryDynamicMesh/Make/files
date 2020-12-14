@@ -1,7 +1,9 @@
 movingImmersedBoundary/movingImmersedBoundary.C
+sixDoFImmersedBoundary/sixDoFImmersedBoundary.C
 refineImmersedBoundaryMesh/refineImmersedBoundaryMesh.C
 
 immersedBoundarySolidBodyMotionFvMesh/immersedBoundarySolidBodyMotionFvMesh.C
+immersedBoundaryMotionFvMesh/immersedBoundaryMotionFvMesh.C
 
 immersedBoundaryRefinement/immersedBoundaryRefinement.C
 
