@@ -127,7 +127,7 @@ void Foam::sixDoFImmersedBoundary::write()
 	
 	if (Pstream::master())
 	{
-		stateFilePtr_() << mesh().time().value() << tab << motion_.centreOfMass().x() << tab << motion_.centreOfMass().y() << tab << motion_.centreOfMass().z() << tab << motion_.centreOfMass().x() << tab << motion_.currentVelocity(motion_.centreOfMass()).x() << tab << motion_.currentVelocity(motion_.centreOfMass()).y() << tab << motion_.currentVelocity(motion_.centreOfMass()).y()  << tab << motion_.currentVelocity(motion_.centreOfMass()).z()  << tab << motion_.omega().x()  << tab << motion_.omega().y()  << tab << motion_.omega().z() << endl;
+		stateFilePtr_() << mesh().time().value() << tab << motion_.centreOfMass().x() << tab << motion_.centreOfMass().y() << tab << motion_.centreOfMass().z() << tab << motion_.currentVelocity(motion_.centreOfMass()).x() << tab << motion_.currentVelocity(motion_.centreOfMass()).y() << tab << motion_.currentVelocity(motion_.centreOfMass()).z()  << tab << motion_.omega().x()  << tab << motion_.omega().y()  << tab << motion_.omega().z() << endl;
     }
 }
 
